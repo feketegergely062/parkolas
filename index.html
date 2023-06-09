@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +8,18 @@
     <title>Parkolás</title>
 </head>
 <body>
-    <p id="rendszam"></p>
-    <p id="szamla"></p>
-    <p id="befizetett"></p>
+    <div id="adathalmaz">
+        <p id="rendszam"></p>
+        <p id="szamla"></p>
+        <p id="befizetett"></p>
 
-    <p id="parkolas"></p>
+        <p id="parkolas"></p>
 
 
-    <input type="button" value="Hatra" onclick="vleptet()">
-    <input type="button" value="Elore" onclick="leptet()">
+     <input type="button" value="Vissza" onclick="vleptet()">
+     <input type="button" value="Tovább" onclick="leptet()">
 
-    
+    </div>
     <script src="adatok.js"></script>
 </body>
 </html>
